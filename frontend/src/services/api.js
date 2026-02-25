@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://ecell-website-one.vercel.app/",
   withCredentials: false, // set true only if you use cookies/auth later
 });
 
